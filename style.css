@@ -1,0 +1,174 @@
+/*
+Theme Name: ePages Devblog
+Author: the ePages team
+Author URI: http://epages.com/
+*/
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+	background: #fff;
+	position: relative;
+}
+
+h1 {
+	color: #666666;
+	padding-left: 14%;
+	padding-top: 1%;
+}
+
+img {
+	padding-top: 2%;
+	padding-left: 14%;
+}
+
+
+.header {
+	background: url(img/headers/circle.png) no-repeat center top / 100% auto rgba(0, 0, 0, 0);
+}
+
+
+.site-description {
+	font: italic 1.5em "Meta","ff-meta-web-pro-2","trebuchet ms",serif;;
+    margin: 0;
+    padding-bottom: 1%;
+    padding-left: 22%;
+}
+
+/* Navigationsbereich */
+
+.navbar {
+	background-color: #078e8a;
+	margin: 0 auto;
+	max-width: 100%;
+	/*width: 100%;*/
+	min-height: 50px;
+	font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+	padding-left: 14%;
+}
+
+/* Hauptnavigation */
+
+.navigation-menu {
+	clear: both;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 40px;
+	position: relative;
+}
+
+.navigation-menu ul {
+	margin: 0;
+	padding: 0 60px 0 0;
+}
+
+.navigation-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.navigation-menu li a {
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	line-height: 1;
+	padding: 18px 30px;
+	text-decoration: none;
+}
+
+.navigation-menu li:hover a,
+.navigation-menu li a:hover,
+.navigation-menu li:focus a,
+.navigation-menu li a:focus {
+	background-color: #ffffff;
+	color: #666666;
+	opacity: 0.8;
+}
+
+.navigation-menu .sub-menu {
+	background-color: #e8e6e6;
+	border-top: 0;
+	padding: 0;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.navigation-menu .sub-menu ul {
+	border-left: 0;
+	left: 100%;
+	top: 0;
+}
+
+ul.navigation-menu ul a,
+.navigation-menu ul ul a {
+	color: #ffffff;
+	margin: 0;
+	width: 200px;
+}
+
+ul.navigation-menu ul a:hover,
+.navigation-menu ul ul a:hover,
+ul.navigation-menu ul a:focus,
+.navigation-menu ul ul a:focus {
+	background-color: #e8e6e6;
+}
+
+ul.navigation-menu li:hover ul,
+.navigation-menu ul li:hover ul,
+ul.navigation-menu .focus ul,
+.navigation-menu .focus ul {
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+
+/*Search-Button*/
+
+#search {
+	margin-left: 65%;
+    border-radius: 5px;
+}
+
+/*form {
+    margin-left: 20%;
+    border-radius: 5px;
+}*/
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #e8e6e6;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    padding: 2px;
+    font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+    color: #666666;
+}
+
+input[type="submit"] {
+    color: #666666;
+}
+
+input[type="submit"] {
+    font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+}
+
+footer.bigfooter {
+	background-color: #078e8a;
+	margin: 0 auto;
+	/*width: 100%;*/
+	min-height: 50px;
+	font-family: "Meta","ff-meta-web-pro-2","trebuchet ms",sans-serif;
+	padding-left: 14%;
+}
